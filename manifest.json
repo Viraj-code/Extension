@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Webpage Summary",
+    "version": "1.0",
+    "description": "Get a summary of the current webpage.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "browser_action": {
+      "default_title": "Get Summary"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "permissions": ["activeTab"],
+    "web_accessible_resources": [
+      {
+        "resources": ["C:\\Users\\Khushi Thapar\\Desktop\\Extension\\assets\\a3308b21a5952bb30332cfe71b0e9633.jpg"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
