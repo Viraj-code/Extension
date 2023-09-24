@@ -19,7 +19,7 @@
     "permissions": ["activeTab"],
     "web_accessible_resources": [
       {
-        "resources": ["C:\\Users\\Khushi Thapar\\Desktop\\Extension\\assets\\a3308b21a5952bb30332cfe71b0e9633.jpg"],
+        "resources": ["a3308b21a5952bb30332cfe71b0e9633.jpg"],
         "matches": ["<all_urls>"]
       }
     ]
